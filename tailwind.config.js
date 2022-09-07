@@ -5,6 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'Raleway': ['Raleway', 'sans-serif'],
+        'NunitoSans': ['Nunito Sans', 'sans-serif'],
+        'OpenSans': ['Open Sans', 'sans-serif']
+      },
       colors: {
         header: '#fef7ed',
         lightGreen: "#6aa75e",
